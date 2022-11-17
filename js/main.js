@@ -8,17 +8,17 @@ let a = 256;
 let b = '256';
 let x = 0 ;
 
-if (b == 256 || b === 256 || a > 256) {
+if (b == 256 ||  a > 256) {
 	alert('Правилной значение');
 }
 
-if ((x || b == 256) && a > 227) {
+if (x || b == 256) {
 	alert('Верной улсловие');
 }
-if (b == 256 && a > 0 || x == null) {
+if (b == x && a > 0 || x == null) {
 	alert('не Null');
 }else{
-	alert('Null')-git 
+	alert('Null')
 }
 
 if (b === 256 || (b !== 1 && a)) {
