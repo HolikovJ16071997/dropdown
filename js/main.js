@@ -16,10 +16,10 @@ if ((x || b == 256) && a > 227) {
 	alert('Верной улсловие');
 }
 
-if (b == 256 && a > 0 && x == null) {
-	alert('Null');
+if (b == 256 && a > 0 || x == null) {
+	alert('не Null');
 }else{
-	alert('Значение не Null')
+	alert('Null')
 }
 
 if (b === 256 || (b !== 1 && a)) {
